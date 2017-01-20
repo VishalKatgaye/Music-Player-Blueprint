@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_dimention">16dp</dimen>
+    <dimen name="padd_dim">10dp</dimen>
+    <dimen name="max_dim">64dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+
+</resources>

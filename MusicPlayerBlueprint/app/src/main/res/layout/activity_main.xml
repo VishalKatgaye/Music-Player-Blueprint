@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vishalkatgaye.musicplayerblueprint.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/play_button"
+        style="@style/basic_style"
+        android:src="@drawable/ic_play" />
+
+    <ImageButton
+        android:id="@+id/pause_button"
+        style="@style/basic_style"
+        android:src="@drawable/ic_pause"
+        android:visibility="gone" />
+
+    <!-- MediaController will be used to implement play/pause feature of songs with the help of "MediaPlayer" class-->
+	<!-- Implementation can be done in "MyMusicPlayer.class" file-->
+    <MediaController
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></MediaController>
+
+</android.support.design.widget.CoordinatorLayout>

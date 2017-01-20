@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Music Player Blueprint</string>
+    <string name="songs">Songs</string>
+    <string name="artist">Artist</string>
+    <string name="album">Albums</string>
+    <string name="playlist">Playlists</string>
+
+    <string name="playlist_info">Will display playlist</string>
+    <string name="album_info">Will display details of album</string>
+    <string name="artist_info">Will display details of artists</string>
+</resources>
